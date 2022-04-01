@@ -14,3 +14,11 @@ web-build/
 
 # CocoaPods
 /ios/Pods/
+
+#android
+android/build
+android/.gradle
+android/.idea
+android/local.properties
+android/**/build/
+android/app/.cxx/**
