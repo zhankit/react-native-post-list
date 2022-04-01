@@ -1,0 +1,3 @@
+interface NavigationProps {
+	theme: Theme
+}

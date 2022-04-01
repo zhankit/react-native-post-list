@@ -1,0 +1,35 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": false,
+		"isolatedModules": true,
+		"importHelpers": true,
+		"jsx": "react-native",
+		"lib": [
+			"es2021"
+		],
+		"moduleResolution": "node",
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": false,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"outDir": "./",
+		"pretty": false,
+		"rootDir": "./",
+		"strictNullChecks": true,
+		"target": "es2021",
+		// target doesnt matter as ts files are transpilled by metro whom doesnt respect tsconfig,
+		// but it matters for the scripts ran with ts-node
+		"skipLibCheck": true,
+		"noEmit": true,
+		"forceConsistentCasingInFileNames": true,
+	},
+	"exclude": [
+		"node_modules",
+		"babel.config.js",
+		"metro.config.js",
+		"jest.config.js"
+	]
+}

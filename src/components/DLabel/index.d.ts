@@ -1,0 +1,3 @@
+interface DLabelProps {
+	text: string;
+};
