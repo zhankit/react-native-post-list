@@ -51,6 +51,7 @@ const styles = StyleSheet.create({
 		paddingHorizontal: 20,
 		paddingTop: 20,
 		fontSize: 18,
+		color: 'black',
 		fontWeight: '600',
 		flexWrap: 'wrap',
 	},
@@ -58,6 +59,7 @@ const styles = StyleSheet.create({
 		paddingHorizontal: 20,
 		paddingBottom: 10,
 		fontSize: 12,
+		color: 'black',
 		flexWrap: 'wrap',
 	},
   });

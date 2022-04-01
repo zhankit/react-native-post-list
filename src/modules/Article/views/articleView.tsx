@@ -27,7 +27,6 @@ const ArticleView = (props: PostProps) => {
 				|| item.email.toLowerCase().match(text.toLowerCase())
 				|| item.body.toLowerCase().match(text.toLowerCase());
 		});
-		console.log('text', text, fitlerList);
 		setFilterComments(fitlerList);
 	}, [text]);
 
@@ -67,6 +66,7 @@ const styles = StyleSheet.create({
 		marginLeft: 30,
 		marginTop: 20,
 		fontWeight: '800',
+		color: 'black',
 		fontSize: 16,
 	},
 	subTitle2: {
@@ -97,6 +97,7 @@ const styles = StyleSheet.create({
 	item: {
 		paddingHorizontal: 20,
 		paddingTop: 20,
+		color: 'black',
 		fontSize: 16,
 		fontWeight: '600',
 		flexWrap: 'wrap',
@@ -105,12 +106,14 @@ const styles = StyleSheet.create({
 		paddingHorizontal: 20,
 		paddingBottom: 10,
 		fontSize: 14,
+		color: 'black',
 		flexWrap: 'wrap',
 	},
 	comment: {
 		paddingHorizontal: 40,
 		marginTop: 20,
 		fontSize: 14,
+		color: 'black',
 		fontWeight: '600',
 		flexWrap: 'wrap',
 	},

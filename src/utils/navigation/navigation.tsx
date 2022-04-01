@@ -39,9 +39,9 @@ const Navigation = (props: NavigationProps) => {
           headerTitleStyle : styles.headerTextStyle,
         }}
       >
-        <MainStack.Screen name="Home" component={lnadingPageScreen} options={{ title: 'Home' }}/>
-		<MainStack.Screen name="ArticleListing" component={ArticleListingScreen} options={{ title: '' }}/>
-		<MainStack.Screen name="Article" component={articleView} options={{ title: '' }}/>
+      <MainStack.Screen name="Home" component={lnadingPageScreen} options={{ title: 'Home' }}/>
+      <MainStack.Screen name="ArticleListing" component={ArticleListingScreen} options={{ title: '' }}/>
+      <MainStack.Screen name="Article" component={articleView} options={{ title: '' }}/>
       </MainStack.Navigator>
     )
   }
